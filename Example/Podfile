@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SKFFMMain_Example' do
+  pod 'SKFFMMain', :path => '../'
+
+  target 'SKFFMMain_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
