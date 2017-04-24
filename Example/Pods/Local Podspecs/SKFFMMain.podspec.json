@@ -1,0 +1,35 @@
+{
+  "name": "SKFFMMain",
+  "version": "0.1.0",
+  "summary": "A short description of SKFFMMain.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wubianxiaoxian/SKFFMMain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wubianxiaoxian": "ss@ss.com"
+  },
+  "source": {
+    "git": "https://github.com/wubianxiaoxian/SKFFMMain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SKFFMMain/Classes/**/*",
+  "resource_bundles": {
+    "SKFFMMain": [
+      "SKFFMMain/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SKFFMBase": [
+
+    ],
+    "MGJRouter": [
+
+    ]
+  }
+}

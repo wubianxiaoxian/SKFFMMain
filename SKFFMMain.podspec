@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKFFMMain'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of SKFFMMain.'
 
 # This description is used to generate tags and improve search results.
@@ -32,10 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SKFFMMain/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SKFFMMain' => ['SKFFMMain/Assets/*.png']
-  # }
-
+   s.resource_bundles = {
+     'SKFFMMain' => ['SKFFMMain/Assets/*.png']
+   }
+s.dependency 'SKFFMBase'
+s.dependency 'MGJRouter'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

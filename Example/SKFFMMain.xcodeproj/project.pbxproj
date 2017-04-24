@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DA4D6F71E9CCCF6002DFA58 /* SKFTestv1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4D6F61E9CCCF6002DFA58 /* SKFTestv1.m */; };
+		1DA4D6FA1E9CCD16002DFA58 /* SKFTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4D6F91E9CCD16002DFA58 /* SKFTest2.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		362A84B2772DE0A9C77650E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1DA4D6F51E9CCCF6002DFA58 /* SKFTestv1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFTestv1.h; sourceTree = "<group>"; };
+		1DA4D6F61E9CCCF6002DFA58 /* SKFTestv1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFTestv1.m; sourceTree = "<group>"; };
+		1DA4D6F81E9CCD16002DFA58 /* SKFTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFTest2.h; sourceTree = "<group>"; };
+		1DA4D6F91E9CCD16002DFA58 /* SKFTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFTest2.m; sourceTree = "<group>"; };
+		362A84B2772DE0A9C77650E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3B55122FD2E654D594DB484E /* Pods-SKFFMMain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKFFMMain_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKFFMMain_Tests/Pods-SKFFMMain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E4345738E7991321B0EBBE7 /* Pods-SKFFMMain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKFFMMain_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKFFMMain_Tests/Pods-SKFFMMain_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4DEED632E8CE716A7D559484 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4DEED632E8CE716A7D559484 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SKFFMMain_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKFFMMain_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +71,7 @@
 		81CEC0F948D717422A064EBB /* Pods-SKFFMMain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKFFMMain_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKFFMMain_Example/Pods-SKFFMMain_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2D33E5CBCB8900492CE970C /* Pods_SKFFMMain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKFFMMain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C63866DAAF639800C61F461B /* SKFFMMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKFFMMain.podspec; path = ../SKFFMMain.podspec; sourceTree = "<group>"; };
+		C63866DAAF639800C61F461B /* SKFFMMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKFFMMain.podspec; path = ../SKFFMMain.podspec; sourceTree = "<group>"; };
 		DDA713E40DE83D9EB409C8A3 /* Pods-SKFFMMain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKFFMMain_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKFFMMain_Example/Pods-SKFFMMain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +141,10 @@
 				6003F59C195388D20070C39A /* SKFAppDelegate.h */,
 				6003F59D195388D20070C39A /* SKFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				1DA4D6F81E9CCD16002DFA58 /* SKFTest2.h */,
+				1DA4D6F91E9CCD16002DFA58 /* SKFTest2.m */,
+				1DA4D6F51E9CCCF6002DFA58 /* SKFTestv1.h */,
+				1DA4D6F61E9CCCF6002DFA58 /* SKFTestv1.m */,
 				6003F5A5195388D20070C39A /* SKFViewController.h */,
 				6003F5A6195388D20070C39A /* SKFViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -394,7 +404,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA4D6FA1E9CCD16002DFA58 /* SKFTest2.m in Sources */,
 				6003F59E195388D20070C39A /* SKFAppDelegate.m in Sources */,
+				1DA4D6F71E9CCCF6002DFA58 /* SKFTestv1.m in Sources */,
 				6003F5A7195388D20070C39A /* SKFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -1,0 +1,6 @@
+framework module SKFFMMain {
+  umbrella header "SKFFMMain-umbrella.h"
+
+  export *
+  module * { export * }
+}

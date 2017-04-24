@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="1.962994">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: version_bump_podspec" time="0.005036">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: git_add" time="0.0392">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: git_commit" time="0.051692">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: push_to_git_remote" time="6.31022">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: git_tag_exists" time="0.011146">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.018161">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="5.281216">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: pod_push" time="19.147184">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

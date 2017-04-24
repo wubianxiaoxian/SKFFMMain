@@ -1,8 +1,9 @@
 use_frameworks!
-
+source 'https://git.coding.net/wubianxiaoxian/SKFFMPrivateLib.git'
+source 'https://github.com/CocoaPods/Specs.git'  #官方仓库的地址
 target 'SKFFMMain_Example' do
   pod 'SKFFMMain', :path => '../'
-
+   
   target 'SKFFMMain_Tests' do
     inherit! :search_paths
 

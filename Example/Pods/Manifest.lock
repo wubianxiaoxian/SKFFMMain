@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MGJRouter (0.9.3)
+  - SKFFMBase (0.6.0):
+    - SKFFMBase/Category (= 0.6.0)
+    - SKFFMBase/Network (= 0.6.0)
+  - SKFFMBase/Category (0.6.0)
+  - SKFFMBase/Network (0.6.0):
+    - AFNetworking
+  - SKFFMMain (0.1.0):
+    - MGJRouter
+    - SKFFMBase
+
+DEPENDENCIES:
+  - SKFFMMain (from `../`)
+
+EXTERNAL SOURCES:
+  SKFFMMain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+  SKFFMBase: baf5a4089d297dc653a0101b7ebab6956cd3dc86
+  SKFFMMain: f3fb18ad1cc622075a575bdca502d1012f93086a
+
+PODFILE CHECKSUM: 10ebf219c9e14507121ee9c81ebb149688361273
+
+COCOAPODS: 1.2.0

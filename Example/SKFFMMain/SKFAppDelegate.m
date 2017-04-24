@@ -7,12 +7,82 @@
 //
 
 #import "SKFAppDelegate.h"
+#import "MainModuleAPI.h"
+#import "SKFTest2.h"
+#import "SKFTestv1.h"
+#import "MGJRouter.h"
 
 @implementation SKFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UITabBarController *rootVC = [MainModuleAPI rootTabBarCcontroller];
+    [MainModuleAPI addChildVC:[SKFTest2 new] normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_n" isRequiredNavController:@(YES)];
+     [MainModuleAPI addChildVC:[SKFTestv1 new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:@(YES)];
+    
+    
+    
+//    UITabBarController *rootVC = [MGJRouter objectForURL:@"skf://tabBarVC"];
+//    
+//    [MGJRouter openURL:@"skf://addChildVC" withUserInfo:@{
+//                                                          @"vc":[SKFTest2 new],
+//                                                          @"nImgName":@"tabbar_find_n",
+//                                                          @"sImgName":@"tabbar_find_h",
+//                                                          @"isRN": @(YES)
+//                                                          } completion:^(id result) {
+//                                                              NSLog(@"添加子控制器完成--%@", result);                                                              
+//                                                          }];
+//    [MGJRouter openURL:@"skf://addChildVC" withUserInfo:@{
+//                                                          @"vc":[SKFTestv1 new],
+//                                                          @"nImgName":@"tabbar_sound_n",
+//                                                          @"sImgName":@"tabbar_sound_h",
+//                                                          @"isRN": @(YES)
+//                                                          } completion:^(id result) {
+//                                                              NSLog(@"添加子控制器完成--%@", result);
+//                                                          }];
+//    
+//    
+//    
+//
+//[MGJRouter openURL:@"skf://addChildVC" withUserInfo:@{
+//                                                      @"vc":[SKFTestv1 new],
+//                                                      @"nImgName":@"tabbar_download_n",
+//                                                      @"sImgName":@"tabbar_download_h",
+//                                                      @"isRN": @(YES)
+//                                                      } completion:^(id result) {
+//                                                          NSLog(@"添加子控制器完成--%@", result);
+//                                                          
+//                                                          
+//                                                      }];
+//[MGJRouter openURL:@"skf://addChildVC" withUserInfo:@{
+//                                                      @"vc":[SKFTestv1 new],
+//                                                      @"nImgName":@"tabbar_me_n",
+//                                                      @"sImgName":@"tabbar_me_h",
+//                                                      @"isRN": @(YES)
+//                                                      } completion:^(id result) {
+//                                                          NSLog(@"添加子控制器完成--%@", result);
+//                                                          
+//                                                          
+//                                                      }];
+//
+//
+//
+//    [MGJRouter registerURLPattern:@"skf://playerVC" toHandler:^(NSDictionary *routerParameters) {
+//        // 获取播放器控制器, 弹出
+//        UIViewController *vc = [[UIViewController alloc] init];
+//        vc.view.backgroundColor = [UIColor greenColor];
+//        
+//        [self.window.rootViewController presentViewController:vc animated:YES completion:nil];
+//        
+//    }];
+    
+    
+    self.window.rootViewController = rootVC;
+    [self.window makeKeyAndVisible];
+
+
+
     return YES;
 }
 

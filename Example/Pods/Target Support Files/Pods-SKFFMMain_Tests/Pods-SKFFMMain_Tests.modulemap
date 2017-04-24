@@ -1,0 +1,6 @@
+framework module Pods_SKFFMMain_Tests {
+  umbrella header "Pods-SKFFMMain_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
